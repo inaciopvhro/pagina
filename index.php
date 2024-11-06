@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="pt-br">
-  <head><script src="../assets/js/color-modes.js"></script>
-
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.122.0">
-    <title>Controle de Pedidos</title>
+    <title>Gerenciamento de Contatos</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
@@ -20,26 +19,26 @@
   <body>
     
 
-    <header class='navbar sticky-top bg-dark flex-md-nowrap p-0 shadow' data-bs-theme='dark'>"
-    <a class='navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white' href='#'>Inacio Informatica</a></header>"
+    <header class='navbar sticky-top bg-dark flex-md-nowrap p-0 shadow' data-bs-theme='dark'>
+    <a class='navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white' href='#'>Inacio Informatica</a></header>
 
-    <main class='col-md-9 ms-sm-auto col-lg-10 px-md-4'>"
-    <h2>Gerenciamento de Contatos</h2>;
-    <p>Insira algum valor para pesquisa</p>;
-    <input class='form-control' id='myinput' type='text' placeholder='Buscar..'>;
-    <br>;
+    <main class='col-md-9 ms-sm-auto col-lg-10 px-md-4'>
+    <h2>Gerenciamento de Contatos</h2>
+    <p>Insira algum valor para pesquisa</p>
+    <input class='form-control' id='myinput' type='text' placeholder='Buscar..'>
+    <br>
     <div class='table-responsive small'>
     <table class='table table-striped table-sm'>
-    <thead>;
-      <tr>;
-        <th scope='col'>#</th>;
-         <th scope='col'>Contato</th>;
-         <th scope='col'>Nome</th>;
-         <th scope='col'>Grupo</th>;
-         <th scope='col'>Data Cad</th>;
-         </tr>;
-         </thead>;
-         <tbody id='myTable'>;
+    <thead>
+      <tr>
+        <th scope='col'>#</th>
+         <th scope='col'>Contato</th>
+         <th scope='col'>Nome</th>
+         <th scope='col'>Grupo</th>
+         <th scope='col'>Data Cad</th>
+         </tr>
+         </thead>
+         <tbody id='myTable'>
          <?php
           $link = mysqli_connect("147.79.86.208","inaciolocal","Inacio@2628","BancoBot");
 
