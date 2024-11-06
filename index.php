@@ -30,7 +30,7 @@
           <thead>
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Header</th>
+              <th scope="col">Nome</th>
               <th scope="col">Header</th>
               <th scope="col">Header</th>
               <th scope="col">Header</th>
@@ -38,8 +38,8 @@
           </thead>
           <tbody>
             <tr>
-              <td>1,001</td>
-              <td>random</td>
+              <td>200</td>
+              <td>inacio carneiro</td>
               <td>data</td>
               <td>placeholder</td>
               <td>text</td>
